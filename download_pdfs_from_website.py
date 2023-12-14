@@ -22,7 +22,8 @@ def download_pdfs():
     chrome_options = Options()
 
     # Set the executable path for the Chrome WebDriver
-    chrome_options.add_argument("webdriver.chrome.driver=..Users\Soniye\chromedriver\chrome-win64")
+    #path to your executable
+    chrome_options.add_argument("webdriver.chrome.driver=..\chrome-win64")
 
     #url of the webpage that needs to be parse
     urls = ['https://www.un.org/techenvoy/global-digital-compact', 'https://www.un.org/techenvoy/global-digital-compact/submissions']
